@@ -11,7 +11,7 @@ import steamlogo from "../assets/img/STEAM_logo.png"
 import humblestorelogo from "../assets/img/HUMBLESTORE_logo.png"
 import xboxlogo from "../assets/img/XBOXOne_logo.png"
 import ps4logo from "../assets/img/PS4_logo.png"
-import ioslogo from "../assets/img/IOS_logo.png"
+import ioslogo from "../assets/img/iOS_logo.png"
 import androidlogo from "../assets/img/android_logo.png"
 import Footer from '../components/Footer'
 
