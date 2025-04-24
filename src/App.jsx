@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-route
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { Register } from './pages/Register'
-import Login from './pages/login'
+import Login from './pages/Login'
 import { useEffect } from "react"
 import Cookies from "js-cookie"
 import axios from "axios"
