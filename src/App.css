@@ -1,0 +1,94 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+body {
+  cursor: url('./assets/img/pointer.png'), auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.app-contain {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.active {
+  border-radius: 15px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3); 
+  
+}
+
+.regis-hover:hover {
+  background-color: #86DF93 !important;
+  color: #333 !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(32,29,39,255);
+}
+
+.tababs {
+  background-color: #e0e0e0;
+  border-bottom-right-radius: 12px;
+}
+
+.card-border {
+  border-bottom: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+}
+
+.custom-pointer {
+  cursor: url('./assets/img/pointer2.png'), auto;
+}
